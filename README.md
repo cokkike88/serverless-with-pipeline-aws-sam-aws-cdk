@@ -1,4 +1,7 @@
 # serverless-with-pipeline-aws-sam
+https://cicd.serverlessworkshops.io/javascript/buildpipe/pipeascode/build.html
+
+https://www.1strategy.com/blog/2019/10/09/building-a-ci-cd-pipeline-for-serverless-applications-on-aws-with-aws-cdk/
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
