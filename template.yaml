@@ -28,10 +28,10 @@ Resources:
           Properties:
             Path: /hello
             Method: get
-  CanaryErrorAlarm:
+  CanaryErrorsAlarm:
     Type: AWS::CloudWatch::Alarm
     Properties:
-      AlarmDescription: Lambda function canary errors HelloWorldFunction
+      AlarmDescription: Lambda function canary errors
       ComparisonOperator: GreaterThanThreshold
       EvaluationPeriods: 2
       MetricName: Errors
