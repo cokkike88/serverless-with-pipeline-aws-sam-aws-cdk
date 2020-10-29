@@ -15,6 +15,7 @@ let response;
  * 
  */
 exports.lambdaHandler = async (event, context) => {
+    console.log('ERROR........ :(');
     throw new Error("This will cause a deployment rollback");    
     // try {
     //     // const ret = await axios(url);
